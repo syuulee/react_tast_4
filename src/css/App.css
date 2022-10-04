@@ -1,0 +1,58 @@
+* {
+  outline: 1px solid seagreen;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.Header {
+  position: relative;
+}
+
+.Header .container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+.Header .container h1 {
+  line-height: 80px;
+  vertical-align: middle;
+}
+
+.Header .gnb ul {
+  display: flex;
+  gap: 50px;
+}
+
+.Header .gnb ul>li {
+  line-height: 80px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.Header .icon {
+  line-height: 80px;
+  font-size: 19px;
+}
+
+/* .main_visual {
+  position: relative;
+} */
+
+.main_visual .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main_visual img {
+  height: 100vh;
+  width: 100vw;
+}
