@@ -1,5 +1,5 @@
 * {
-  outline: 1px solid seagreen;
+  outline: 1px solid --seagreen;
 }
 
 .container {
@@ -8,14 +8,15 @@
 }
 
 .Header {
-  position: relative;
+  /* position: relative; */
+  background: #000;
 }
 
 .Header .container {
-  position: absolute;
+  /* position: absolute;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); */
   display: flex;
   justify-content: space-between;
   z-index: 999;
@@ -47,12 +48,92 @@
 } */
 
 .main_visual .bg {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
+  /* position: absolute; */
+  /* top: 0;
+  left: 0; */
 }
 
 .main_visual img {
   height: 100vh;
   width: 100vw;
+}
+
+/* footer */
+
+
+.Footer {
+  padding: 0 0 100px 0;
+}
+
+.Footer .ft_logo {
+  display: flex;
+  justify-content: space-between;
+  line-height: 90px;
+}
+
+.Footer .ft_logo .ft_me {
+  display: flex;
+  gap: 30px;
+}
+
+.Footer .ft_logo .ft_me>li {
+  position: relative;
+  font-size: 15px;
+  letter-spacing: -0.025em;
+}
+
+.Footer .ft_logo .ft_me>li~li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -15px;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #ddd;
+}
+
+.Footer .ft_bottom {
+  margin: 0 0 10px 0;
+}
+
+.Footer .bottom {
+  display: flex;
+  gap: 30px;
+  width: 711px;
+  margin: 0 274px 0 274px;
+}
+
+.Footer .bottom address {
+  font-size: 15px;
+  letter-spacing: -0.025em;
+}
+
+.Footer .bottom ul {
+  display: flex;
+  gap: 30px;
+  font-size: 15px;
+  letter-spacing: -0.025em;
+}
+
+.Footer .bottom ul>li {
+  font-size: 15px;
+  letter-spacing: -0.025em;
+}
+
+.Footer .bottom ul>li span {
+  letter-spacing: 0.025em;
+}
+
+.Footer .copy {
+  margin: 0 0 0 274px;
+  font-size: 15px;
+  letter-spacing: 0.025em;
+}
+
+.Footer select {
+  font-size: 15px;
+  padding: 0 20px 0 5px;
 }
