@@ -4,19 +4,18 @@ import Header from './components/Header';
 import Main from './pages/Main';
 import Center from './pages/Center';
 import './css/App.css';
-import Main from './pages/Main';
 
 const App = () => {
-  return (
-    <>
-      <Header />
-      <Routes>
-        <Route path='/' element={<Main />} />
-        <Route path='/center' element={<Center />} />
-      </Routes>
-      <Footer />
-    </>
-  )
-}
+    return (
+        <>
+            <Header />
+            <Routes>
+                <Route path='/' element={<Main />} />
+                <Route path='/center' element={<Center />} />
+            </Routes>
+            <Footer />
+        </>
+    );
+};
 
 export default App;
