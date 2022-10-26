@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Main from './pages/Main';
 import Center from './pages/Center';
 import './css/App.css';
-import Main from './pages/Main';
+
 
 const App = () => {
   return (
