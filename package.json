@@ -8,6 +8,11 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
+<<<<<<< HEAD
+=======
+    "dotenv": "^16.0.3",
+    "gh-pages": "^4.0.0",
+>>>>>>> b4f4a10213be1e892345664a6fb07c7259b70d7c
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.1",
